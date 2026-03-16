@@ -1,0 +1,82 @@
+{
+  "extracted_chunks": [
+    {
+      "source_id": "a1b2c3d4-...",
+      "chunk_id": "e5f6g7h8-...",
+      "chunk_index": 0,
+      "grade": 1,
+      "subject": "Math",
+      "topic": "Shapes",
+      "text": "A triangle has three sides and three corners. A square has four equal sides. A circle is round with no corners or sides. Shapes are all around us in everyday life.",
+      "fingerprint": "3f7a91bc04d2e8f1"
+    },
+    {
+      "source_id": "a1b2c3d4-...",
+      "chunk_id": "i9j0k1l2-...",
+      "chunk_index": 1,
+      "grade": 1,
+      "subject": "Math",
+      "topic": "Numbers",
+      "text": "Counting from one to ten: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Numbers help us count objects and understand how many there are.",
+      "fingerprint": "8c4b17de29a3f056"
+    }
+  ],
+  "generated_questions": [
+    {
+      "id": "Q001",
+      "chunk_id": "e5f6g7h8-...",
+      "question": "How many sides does a triangle have?",
+      "type": "MCQ",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3",
+      "difficulty": "easy",
+      "topic": "Shapes",
+      "subject": "Math",
+      "grade": 1
+    },
+    {
+      "id": "Q002",
+      "chunk_id": "e5f6g7h8-...",
+      "question": "A circle has no corners.",
+      "type": "TrueFalse",
+      "options": null,
+      "answer": "True",
+      "difficulty": "easy",
+      "topic": "Shapes",
+      "subject": "Math",
+      "grade": 1
+    },
+    {
+      "id": "Q003",
+      "chunk_id": "e5f6g7h8-...",
+      "question": "A square has _____ equal sides.",
+      "type": "FillBlank",
+      "options": null,
+      "answer": "four",
+      "difficulty": "medium",
+      "topic": "Shapes",
+      "subject": "Math",
+      "grade": 1
+    }
+  ],
+  "submit_answer_response": {
+    "student_id": "S001",
+    "question_id": "Q001",
+    "selected_answer": "3",
+    "correct_answer": "3",
+    "is_correct": true,
+    "feedback": "Correct! Well done.",
+    "adaptive": {
+      "previous_difficulty": "easy",
+      "current_difficulty": "easy",
+      "difficulty_changed": false,
+      "correct_streak": 1,
+      "incorrect_streak": 0
+    },
+    "stats": {
+      "total_answered": 1,
+      "total_correct": 1,
+      "accuracy_percent": 100.0
+    }
+  }
+}
